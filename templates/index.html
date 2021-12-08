@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Secret Key Generator</title>
+    </head>
+    <body>
+        <form action="/getkey" method="POST">
+            Are you a
+            <input type="radio" name="type" value="Sender"/>Sender
+            <input type="radio" name="type" value="Reciever"/>Reciever
+            <br/>
+            Your Private Key
+            <input type="number" name="key"/><br/>
+            <input type="submit" value="Generate Key"/>
+
+        </form>   
+    </body>
+</html>
